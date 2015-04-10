@@ -1,6 +1,6 @@
 # Webcam2CCTVCloud
 ##Description
-Webcam2CCTVCloud is a simple bash script which turns your webcam to CCTV camera. So you can capture as many frame as you want in a certain period of time and save it in your desirable location.
+Webcam2CCTVCloud is a simple bash script which turns your webcam to CCTV camera. So you can capture as many frames as you want in a certain period of time and save it in your desirable location.
 It is very easy to use and you can run it on background or make use of your laptop as the CCTV while you are away.
 In addition to that you can set saving picture path to your [Dropbox] (http://www.dropbox.com) syncing folder path to be able do monitoring via different devices which connected to the same Dropbox account.
 
