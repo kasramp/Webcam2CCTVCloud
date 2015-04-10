@@ -7,7 +7,7 @@ FRAME="-f"
 FRAME_NUMBER=3
 function capture {
 cd $1
-echo "In the capture function"
+#echo "In the capture function"
 # capture X frames
 mplayer -vo png -frames $2 tv:// 
 
@@ -25,7 +25,7 @@ done
 if [ 0 -eq $# ]
 then
 	echo -e "No argument entered!"
-	echo -e "Please use -s [second], -p [pics path] -f [how many pics in one time period >2 and <=9]"
+	echo -e "Please use -s [second], -p [pics path] -f [how many pics in one time period >2]"
 	echo -e "Default values : -s = 10, -p = pwd, -f = 3"
 else
 	for (( i=1; i<=$#; i++ )) 
