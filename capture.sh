@@ -1,6 +1,6 @@
 #!/bin/bash
 # cd to Dropbox folder
-cd '/home/kixz/Dropbox/Kasra Private/.CCTV'
+cd $1
 # capture X frames
 mplayer -vo png -frames 3 tv:// 
 
@@ -11,6 +11,4 @@ rm -rvf 00000002.png
 total=$(ls -1 | wc -l)
 total=$((total + 1))
 mv 00000003.png $total.png
-
-
 
