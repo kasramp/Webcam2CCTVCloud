@@ -14,7 +14,7 @@ In Ubuntu you can install Mplayer with the following command.
 ##How to use
 In order to use the script just provide excuting permission and run it like below,
 
-    $ chmod runCCTV.sh
+    $ chmod a+x runCCTV.sh
     $ ./runCCTV.sh
 Following is the list of acceptable arguments with their description,
 
