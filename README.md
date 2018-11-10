@@ -27,7 +27,6 @@ Following is the list of acceptable arguments with their description,
 
 ## Contact
 * kasra@madadipouya.com  
-* kasra_mp@live.com  
 
 ## License
 Webcam2CCTVCloud is free software; you can redistribute it and/or modify
